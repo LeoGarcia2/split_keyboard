@@ -35,9 +35,9 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   
 
   [_ACCENT] = LAYOUT_ortho_4x12( \
-    _______, KC_UP, _______, KC_2, KC_7, KC_ESC,                                                S(KC_3), S(KC_2), S(KC_1), _______, _______, KC_ENT, \
+    _______, KC_UP, _______, KC_2, KC_7, KC_ESC,                                                LALT_T(S(KC_3)), LCTL_T(S(KC_2)), LSFT_T(S(KC_1)), _______, _______, KC_ENT, \
     KC_LEFT, KC_DOWN, KC_RIGHT, KC_9, KC_0, KC_SPC,                                             S(KC_6), S(KC_5), S(KC_4), KC_CAPS, _______, KC_BSPC, \
-    _______, _______, S(KC_LBRC), KC_LBRC, KC_QUOT, KC_TAB,                                     S(KC_9), S(KC_8), S(KC_7), S(KC_0), _______, KC_DEL, \
+    C(KC_C), C(KC_V), S(KC_LBRC), KC_LBRC, KC_QUOT, KC_TAB,                                     S(KC_9), S(KC_8), S(KC_7), S(KC_0), _______, KC_DEL, \
     _______, _______, _______, _______, _______, _______,                                       _______, _______, _______, _______, _______, _______ \
   )
 
